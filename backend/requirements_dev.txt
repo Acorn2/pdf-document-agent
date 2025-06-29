@@ -1,0 +1,25 @@
+# 先安装最基础的依赖
+pip install fastapi==0.104.1
+pip install uvicorn[standard]==0.24.0
+pip install sqlalchemy==2.0.23
+pip install pydantic==2.5.0
+pip install python-dotenv==1.0.0
+
+# 然后安装通义千问相关
+pip install dashscope==1.17.0
+
+# 安装LangChain相关
+pip install langchain==0.0.335
+pip install langchain-community==0.0.6
+
+# 文档处理
+pip install PyMuPDF==1.23.8
+pip install pypdf==3.17.1
+pip install python-docx==1.1.0
+
+# 向量数据库
+pip install chromadb==0.4.17
+
+# 其他工具
+pip install numpy==1.24.3
+pip install tiktoken==0.5.1
